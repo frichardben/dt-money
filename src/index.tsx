@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createServer, Model } from 'miragejs'
-import App from './App';
+import { App } from './App';
 
 createServer({
 
@@ -14,7 +14,7 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: 'Freelancer de website',
+          title: 'Freelance de website',
           type: 'deposit',
           category: 'Dev',
           amount: 6000,
@@ -28,7 +28,7 @@ createServer({
           amount: 900,
           createdAt: new Date('2021-04-10 08:00:00'),
         }
-      ],
+      ]
     })
   },
 
