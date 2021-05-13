@@ -13,6 +13,12 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    img {
+        @media (max-width: 600px) {
+            width: 150px;
+        }
+    }
+
     button {
         font-size: 1rem;
         color: #fff;
@@ -26,6 +32,10 @@ export const Content = styled.div`
 
         :hover {
             filter: brightness(0.9);
+        }
+
+        @media (max-width: 600px) {
+            padding: 0 1rem;
         }
     }
 `
